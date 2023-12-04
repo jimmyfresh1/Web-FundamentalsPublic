@@ -1,0 +1,18 @@
+#cloud {
+    background-color: black;
+    color:aliceblue;
+    text-align:left;
+}
+
+#projects {
+    background-color: blueviolet;
+    color:aliceblue;
+    font-style:italic;
+    text-align:center;
+}
+#contact {
+    background-color: deepskyblue;
+    color:blue; 
+    text-decoration:underline;
+    text-align:right;
+}
