@@ -1,0 +1,33 @@
+#search {
+    margin: 15px;
+    color:rgb(47, 196, 196);
+    border-color:rgb(0, 201, 201);
+    background-position:top;
+    background-size: auto;
+    background-color:azure;
+    border-style:solid;
+    border-radius:20px;
+    width: 200px;
+    height: 40px
+
+}
+
+#plus{
+    color:aliceblue;
+    border-color: #1ee5ff;
+    background-color: #1ee5ff;
+    margin: 15px;
+    border-radius: 50%;
+    width:40px;
+    height: 40px;
+}
+
+#create {
+    color:aliceblue;
+    background-color:rgb(85, 123, 230);
+    box-shadow: 3px 3px black;
+    margin:  15px;
+    font-size:30pt 
+    width: 200px;
+    height:40px 
+}
