@@ -4,9 +4,10 @@
     margin: 0px auto;
 }
 .top-nav {
-    margin-top:20px;
+    margin: 20px;
     height: 150px;
     background-color: green;
+    vertical-align:middle;
 }
 .side-nav {
     display: inline-block;
