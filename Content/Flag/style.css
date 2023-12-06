@@ -1,0 +1,24 @@
+.container {
+    height: 210px;
+    width:500x;
+    background-color:black;
+    display:inline-block;
+}
+
+.white {
+    height: 70px;
+    width:500px;
+    background-color:white;
+}
+
+.green {
+    height: 70px;
+    width:500px;
+    background-color:green;
+}
+
+.red {
+    height: 70px;
+    width:500px;
+    background-color: red;
+}
