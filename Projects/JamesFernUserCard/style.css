@@ -1,42 +1,48 @@
-img {
-    height:  15px;
-    width:15px;
-    display:inline-block;
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    width: 500px;
+
+}
+.pfp {
+    flex:1;
 }
 
 h1 {
     color:blue;
     flex: 2
 }
+img {
+    height:  15px;
+    width:15px;
+}
 
+#pic {
+    height: 80px;
+    width: 80px;
+}
 .content {
-    width:500px;
-    height: 200px;
+
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     flex:1;
 }
 
-p {
+.tagline {
     display:inline-block;
+    height: 20px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
 }
-
-#Seattle {
-    display:inline-block;
-}
-
 #edit {
     color:blue;
     text-decoration:underline;
 }
 
-.container {
-    display: flex;
-    flex-direction: column;
-
-}
-
-.nameProfile{
-    flex:1;
+#map {
+    display: inline;
 }

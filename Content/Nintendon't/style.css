@@ -1,0 +1,32 @@
+
+.container{
+
+}
+
+.navWhole{
+    background-color:blue;
+    display:flex;
+    justify-content:space-between;
+    height:75px;
+}
+
+#topNav {}
+#penNav {}
+
+.spotlightWhole {
+    background-color:green;
+    height:200px;
+}
+
+#spotlightWidget{
+}
+
+.nintendoFeatured {
+    background-color:purple;
+    height:200px;
+}
+
+#featuredHeader {}
+
+#featuredSlideshow {}
+
