@@ -1,0 +1,23 @@
+.row{
+    display:flex;
+    height: 100px;
+    color:white;
+    align-items:center; 
+}
+
+.col {
+    background-color: skyblue;
+    height: 75px;
+    flex: 1
+}
+.col-2{
+    background-color: skyblue;
+    height: 75px;
+    flex: 2
+
+}
+.col-3{
+    background-color: skyblue;
+    height: 75px;
+    flex: 3
+}
