@@ -1,0 +1,31 @@
+img {
+    height:  15px;
+    width:15px;
+    display:inline-block;
+}
+
+h1 {
+    color:blue;
+    flex: 2
+}
+
+.content {
+    width:500px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+p {
+    display:inline-block;
+}
+
+#Seattle {
+    display:inline-block;
+}
+
+#edit {
+    color:blue;
+    text-decoration:underline;
+}
