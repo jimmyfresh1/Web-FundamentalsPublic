@@ -3,12 +3,15 @@
     height: 100px;
     color:white;
     align-items:center; 
+    justify-content: space-between;
+
 }
 
 .col {
     background-color: skyblue;
     height: 75px;
-    flex: 1
+    flex: 1;
+    margin-right:20px;
 }
 .col-2{
     background-color: skyblue;
@@ -19,5 +22,6 @@
 .col-3{
     background-color: skyblue;
     height: 75px;
-    flex: 3
+    flex: 3;
+    margin-left: 20px
 }
