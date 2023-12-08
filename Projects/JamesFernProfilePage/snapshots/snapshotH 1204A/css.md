@@ -29,44 +29,14 @@ height: 40px;
 
 }
 
-.userCard {
+#box1 {
 width: 10%;
-height: 170px;
-background-color: rgb(117, 155, 155);
+height: 220px;
+background-color: azure;
 margin-left: auto;
 margin-right: auto;
-margin-top: 20px;
-margin-bottom:20px;
-width: 250px;
-}
-
-
-
-.icon  {
-    height:  15px;
-    width:15px;
-}
-
-
-.top-strip{
-    background-color:rgb(235, 135, 135);
-    text-align:left;
-    height:30%
-}
-
-.bottom-strip {
-    background-color:rgb(247, 14, 14);
-    text-align:left;
-    height:60%
-    display:flex;
-}
-
-#pic {
-    height: 55px;
-    width: 55px;
-    position: relative;
-    top: 13px;
-    left: 20px;
+margin-top: 10px;
+margin-bottom:10px;
 }
 
 #box2 {
@@ -89,7 +59,7 @@ margin-bottom:10px;
 }
 #box4 {
 width:  10%;
-height: 520px;
+height: 320px;
 color:white;
 background-color: black;
 margin-left: auto;
@@ -97,24 +67,3 @@ margin-right: auto;
 margin-top: 10px;
 margin-bottom:10px;
 }
-
-
-h6 {
-    position:relative;
-    left:20px;
-}
-
-
-ul {
-    list-style-type:none;
-    font-size:10px;
-    justify-content: flex-start;
-}
-
-
-p {    
-    color:blue;
-    text-decoration:underline;
-    position:relative;
-    left: 5px;
-    bottom: 15px;}
