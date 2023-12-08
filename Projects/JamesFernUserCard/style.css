@@ -6,43 +6,50 @@
     width: 500px;
 
 }
-.pfp {
-    flex:1;
+
+.top-bar{
+    flex: 2;
+    background-color:skyblue
 }
 
-h1 {
-    color:blue;
-    flex: 2
+.bottom-bar {
+    flex: 5;
+    background-color:aliceblue;
 }
+
+#pic {
+    height: 55px;
+    width: 55px;
+    position: relative;
+    top: 30px;
+    left: 20px;
+}
+
+h2 {
+    position:relative;
+    top:10px;
+    left:20px;
+}
+
+ul {
+    list-style-type:none;
+    font-size:15px;
+}
+
 img {
     height:  15px;
     width:15px;
 }
 
-#pic {
-    height: 80px;
-    width: 80px;
-}
-.content {
-
+.edit {
     display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    flex:1;
 }
 
-.tagline {
-    display:inline-block;
-    height: 20px;
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-}
-#edit {
+p {    
     color:blue;
     text-decoration:underline;
-}
+    position:relative;
+    left: 5px;
+    bottom: 15px;}
 
-#map {
-    display: inline;
-}
+
