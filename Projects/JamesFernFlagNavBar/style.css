@@ -52,3 +52,19 @@ a {
     border: 2px black;
     border-style:solid;
 }
+
+#reqTop {
+    display:flex;
+}
+
+#friends {
+    height: 20px;
+    width: 20px;
+    border: solid;
+    border-radius: 50%;
+    flex:1;
+}
+
+#reqTopSide{
+    flex:7;
+}
