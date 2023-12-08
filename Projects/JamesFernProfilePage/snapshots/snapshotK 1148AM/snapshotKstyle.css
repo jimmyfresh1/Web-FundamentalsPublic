@@ -76,7 +76,7 @@ a {
     
 }
 .yourConnections{
-    width:25%;
+    width:20%;
     background-color: red;
     text-align:center;
 
@@ -100,13 +100,13 @@ width: 90%;
 
 
 .top-strip{
-    background-color:rgb(129, 177, 250);
+    background-color:rgb(135, 175, 235);
     text-align:left;
     height:28%;
 }
 
 .bottom-strip {
-    background-color:rgb(236, 242, 255);
+    background-color:rgb(198, 213, 245);
     text-align:left;
     height:72%;
     display:flex;
@@ -124,25 +124,15 @@ width: 90%;
     display:flex;
 }
 
-.education {
-width:  90%;
+#box2 {
+width:  10%;
 height:220px;
-background-color:rgb(236, 242, 255);
+background-color: brown;
 margin-left: auto;
 margin-right: auto;
+margin-top: 10px;
 margin-bottom:10px;
-margin-top:10px;
-display:flex; 
-flex-direction: column;
 }
-
-.education h3 {
-    background-color: gray;
-
-}
-
-
-
 #box3 {
 width:  10%;
 height: 100px;
@@ -171,20 +161,8 @@ ul {
 }
 
 
-.prof p {    
+p {    
     color:blue;
     text-decoration:underline;
     align-content:center;
-}
-
-#stack p{
-    font-size:12px;
-}
-
-#date p{
-    font-size:12px;
-}
-
-#cred p{
-    font-size:12px;
 }

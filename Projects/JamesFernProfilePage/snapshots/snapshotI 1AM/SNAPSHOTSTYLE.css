@@ -1,0 +1,122 @@
+
+.container {
+    margin:0;
+    padding:0;
+    background-color:rgba(195, 0, 255, 0.5);
+    width:800px;
+}
+.navBar {
+color: white;
+background-color: black;
+height: 40px;
+}
+.mainContent{
+    display:flex;
+    margin: 20px; 
+    justify-content:center;
+    background-color:rgb(251, 255, 0);
+}
+.profileEducation{
+    width: 40%;
+    background-color:aqua;
+    text-align:center;
+    
+}
+.yourConnections{
+    width:20%;
+    background-color: red;
+    text-align:center;
+
+}
+
+.userCard {
+width: 10%;
+height: 170px;
+background-color: rgb(117, 155, 155);
+margin-left: auto;
+margin-right: auto;
+margin-top: 20px;
+margin-bottom:20px;
+width: 250px;
+}
+
+
+
+.icon  {
+    height:  15px;
+    width:15px;
+}
+
+
+.top-strip{
+    background-color:rgb(235, 135, 135);
+    text-align:left;
+    height:30%
+}
+//ISSUES WITH BOTTOM STRIP WHITE SPACE 
+//MISSING SEMICOLON AFTER HEIGHT
+.bottom-strip {
+    background-color:rgb(247, 14, 14);
+    text-align:left;
+    height:60%
+    display:flex;
+
+}
+
+#pic {
+    height: 55px;
+    width: 55px;
+    position: relative;
+    top: 13px;
+    left: 20px;
+}
+
+#box2 {
+width:  10%;
+height:220px;
+background-color: brown;
+margin-left: auto;
+margin-right: auto;
+margin-top: 10px;
+margin-bottom:10px;
+}
+#box3 {
+width:  10%;
+height: 100px;
+background-color: darkgoldenrod;
+margin-left: auto;
+margin-right: auto;
+margin-top: 10px;
+margin-bottom:10px;
+}
+#box4 {
+width:  10%;
+height: 520px;
+color:white;
+background-color: black;
+margin-left: auto;
+margin-right: auto;
+margin-top: 10px;
+margin-bottom:10px;
+}
+
+
+h6 {
+    position:relative;
+    left:20px;
+}
+
+
+ul {
+    list-style-type:none;
+    font-size:10px;
+    justify-content: flex-start;
+}
+
+
+p {    
+    color:blue;
+    text-decoration:underline;
+    position:relative;
+    left: 5px;
+    bottom: 15px;}
