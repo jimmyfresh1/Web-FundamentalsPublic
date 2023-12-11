@@ -1,4 +1,11 @@
 
+
+/*  wildcard clear*/
+* {
+    margin:0;
+    padding:0;
+}
+
 /*  Main Container*/
 .container {
     margin:0;
@@ -13,8 +20,18 @@
     font-family: 'Roboto', sans-serif;
     background-color:rgb(15, 15, 15);
     height:40px;
+
+
+}
+
+.navMid {
+    margin-left:auto;
+    margin-right:auto;
+    width: 55%; 
     display:flex;
     justify-content: space-around;
+    position:relative;
+    left: 15px;
 }
 
 .nav-links {
@@ -22,8 +39,9 @@
     display:flex;
     list-style-type:none;
     align-items: center;
-    gap:7px;
-    margin-right:10px;
+    gap:16px;
+    
+
 }
 
 .nav-links li {
@@ -45,9 +63,9 @@
     font-size:15px;
     border: 2px black;
     border-style:solid;
-    margin-right:40px;
     width:100px;
     height: 90%;
+    margin-left:30px;
     
 }
 /* Main content is a direct child of container*/
@@ -69,13 +87,13 @@
 
 /* colA contains 2 boxes, userCard and education */
 .userCard {
-height: 40vh;
+height: 30vh;
 background-color: rgb(117, 155, 155);
 margin-left: auto;
 margin-right: auto;
 margin-top: 20px;
 margin-bottom:30px;
-width: 90%;
+width: 80%;
 border-style:solid;
 border-color:rgb(192, 192, 192);
 border-width:2px;
@@ -86,7 +104,7 @@ border-width:2px;
 .top-strip{
     background-color:rgb(129, 177, 250);
     text-align:left;
-    height:28%;
+    height: 25%;
 }
 
 .top-strip img{
@@ -98,10 +116,14 @@ border-width:2px;
 }
 /* bottom-strip contains all the info, like name and tagline*/
 .bottom-strip {
+    height: 75%;
     background-color:rgb(236, 242, 255);
     text-align:left;
     display:flex;
     flex-direction:column;
+    justify-content:center;
+    gap:7px;
+    padding-left:20px;
 }
 
 .bottom-strip img {
@@ -109,21 +131,32 @@ border-width:2px;
     width:15px;
 }
 
-.bottom-strip span {
+.tagline {
+    font-size:16px;
+    gap:4px;
+}
+
+.bottom-strip .prof {
     color:blue;
     text-decoration:underline;
+}
+.map, .prof {
+    display:flex;
 }
 
 /* Education is the second box in Column A*/
 .education {
-width:  90%;
-height: 40vh;
+width:  80%;
+height: 24vh;
 background-color:rgb(236, 242, 255);
 margin-left: auto;
 margin-right: auto;
 border-style:solid;
 border-color:rgb(134, 134, 134);
 border-width:2px;
+display:flex;
+flex-direction:column;
+gap:20px;
 
 }
 
@@ -173,8 +206,8 @@ border-width:2px;
 }
 /* connectionRequests is the first box in colB */
 #connectionRequests {
-    width:  90%;
-    height:  30vh;
+    width:  95%;
+    height:  20vh;
     background-color:rgb(236, 242, 255);
     margin-left: auto;
     margin-right: auto;
@@ -185,6 +218,7 @@ border-width:2px;
     border-width:2px;
     display:flex;
     flex-direction:column;
+    gap: 15px;
     }
 
 
@@ -194,37 +228,49 @@ border-width:2px;
     display:flex;
     background-color:gray;
 }
+
+.connectionHeader {
+    height: 40px; 
+    font-size:16px;
+    gap:3px;
+    align-items:center;
+}
 /* we reuse the most of the styling for the number of reqs/friends n both boxes */
 #reqNumber, #friendNumber {
-    font-size:30px;
+    font-size:20px;
     border-style:solid;
     border-width:3px;
     border-radius:50%;
-    color:gray;
+    color:rgb(78, 78, 78);
     background-color:aliceblue;
-    height:50px;
-    width:60px;
+    height:30px;
+    width:40px;
 }
 
 .myFriendsHeader  >#friendNumber  {
-    width:80px;
+    width:50px;
     border-radius:90%;
 }
 
 /* we reuse the styling for the headers*/
 .row {
     display:flex;
+    justify-content:space-between;
 }
 
-/*pfps need to be next to text */
+/*pfps need to be next to text, reuse */
 
-.requestsPFP{ 
+.requestsPFP, .friendsPFP{ 
     display:flex;
+}
+
+.friendsPFP {
+    gap:15px;
 }
 
 /* we reuse the styling for PFPs in both boxes */
 
-.requestsPFP img, .myFriends img {
+.requestsPFP img, .friendsPFP img {
         height:35px;
         width:35px;
         border-style:solid;
@@ -241,8 +287,8 @@ border-width:2px;
 /* yourConnections is the second box in colB */
 
 #yourConnections {
-    width:  90%;
-    height: 50vh;
+    width:  95%;
+    height: 40vh;
     color:rgb(15, 1, 1);
     background-color:rgb(236, 242, 255);
     margin-left: auto;
@@ -252,6 +298,15 @@ border-width:2px;
     border-style:solid;
     border-color:rgb(206, 205, 205);
     border-width:2px;
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+    }
+
+    .myFriends {
+        display:flex;
+        flex-direction:column;
+        gap:22px;
     }
 
 .myFriends {
@@ -262,5 +317,6 @@ border-width:2px;
 #more {
     border-style:solid;
     border-color:rgb(173, 173, 173);
-    
+    border-width:1px;
+    margin-top:21px;
 }

@@ -10,15 +10,17 @@
 
 <body>
     <div class="container">
-        <div class="nav">
-            <div class="nav-links">
-                <h1>Profile</h1>
-                <li>Home</li>
-                <li>My Profile</li>
-                <li>Find Connections</li>
-            </div>
-            <button>Sign Out</button>
+        <div class="nav">  
+            <div class="navMid">
+                <div class="nav-links">
+                    <h1>Profile</h1>
+                    <li>Home</li>
+                    <li>My Profile</li>
+                    <li>Find Connections</li>
+                </div>
+                <button>Sign Out</button>
         </div>
+    </div>
         <div class="mainContent">
             <div class="colA">
                 <div class="userCard">
@@ -27,10 +29,18 @@
                     </div>
                     <div class="bottom-strip">
                             <h3>Jane Doe</h3>
-                            <img  src="Images/map-marker.png" alt="map">Seattle
-                            <p>Developer | Engineer | Problem Solver</p>
-                            <p>Master of shadows and the Internet!</p>
-                            <img  src="Images/gear.png" alt="gear"> <span>edit profile</span>
+                            <div class="map">
+                                <img  src="Images/map-marker.png" alt="map">
+                                <p>Seattle</p>
+                            </div>
+                            <div class="tagline">
+                                <p>Developer | Engineer | Problem Solver</p>
+                                <p>Master of shadows and the Internet!</p>
+                            </div>
+                            <div class="prof">
+                                <img  src="Images/gear.png" alt="gear"> 
+                                <p>edit profile</p>
+                            </div> 
                     </div>
                 </div>
                 <div class="education">
@@ -75,11 +85,26 @@
                         <p>Your Connections</p>
                     </div>
                     <div class="myFriends">
-                        <img  src="Images\Adrien-s.jpg" alt="Adrien"> Adrien
-                        <img  src="Images\Alayne-s.jpg" alt="Alayne"> Alayne
-                        <img  src="Images\Anne-s.jpg" alt="Anne"> Anne
-                        <img  src="Images\arry-s.jpg" alt="Arry"> Arry
-                        <img  src="Images\jane-m.jpg" alt="Jane"> Arry
+                        <div class="friendsPFP">
+                            <img  src="Images\Adrien-s.jpg" alt="Adrien"> 
+                            <p>Adrien</p>
+                        </div>
+                        <div class="friendsPFP">
+                            <img  src="Images\Alayne-s.jpg" alt="Alayne">
+                            <p>Alayne</p>
+                        </div>
+                        <div class="friendsPFP">
+                            <img  src="Images\Anne-s.jpg" alt="Anne"> 
+                            <p>Anne</p>
+                        </div>
+                        <div class="friendsPFP">
+                            <img  src="Images\arry-s.jpg" alt="Arry"> 
+                            <p>Arry</p>
+                        </div>
+                        <div class="friendsPFP">
+                            <img  src="Images\jane-m.jpg" alt="Jane"> 
+                            <p>Jane</p>
+                        </div>
                         <p id="more"> view more</p>
                     </div>
                 </div>
