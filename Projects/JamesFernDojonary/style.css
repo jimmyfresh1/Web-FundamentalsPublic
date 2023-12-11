@@ -1,0 +1,109 @@
+.container {
+width:800px;
+
+}
+
+.nav {
+display:flex;
+width:70%;
+height:50px;
+align-items: center;
+justify-content:center;
+background-color:rgb(189, 189, 189);
+margin-left: auto;
+margin-right: auto;
+
+}
+
+.nav h2 {
+
+
+}
+
+.nav input {
+height:30px;
+margin-left:50px;
+margin-right:50px;
+}
+
+#login {
+height:30px;
+}
+
+.main {
+width:70%;
+margin-left: auto;
+margin-right: auto;
+display:flex;
+justify-content:center;
+
+}
+
+.colA{
+flex:2;
+background-color:aqua;
+height:20px;
+
+}
+
+.ninjaBox {
+    width: 90%;
+    height:125px;
+    background-color:red;
+    margin:10px;
+
+}
+
+.ninjaBox .ninjaCol{
+display:flex;
+flex-direction:column;
+height:100px;
+background-color:rgb(90, 39, 39);
+width:80px;
+margin-left:15px;
+
+}
+
+.ninjaBox .ninjaCol .tophalf{
+flex:3;
+
+}
+.ninjaBox .ninjaCol .bottomhalf {
+flex:2;
+}
+
+.ninjaCol .word {
+    font-size:18px;
+}
+
+.ninjaCol .pos {
+    font-size:12px;
+}
+
+.ninjaCol .plural {
+    font-size:8px;
+}
+
+
+
+
+
+.ninjaDef{
+
+
+}
+
+.colB {
+flex:1;
+background-color:chocolate;
+height:200px;
+}
+
+#dojonary {
+    width:90%;
+    height:300px;
+    background-color:rgb(255, 0, 157);
+    margin:10px;
+}
+
+
