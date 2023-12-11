@@ -82,7 +82,7 @@ height: 40px;
     text-align:center;
     
 }
-.allConnections{
+.yourConnections{
     width:25%;
     background-color: red;
     text-align:center;
@@ -165,15 +165,8 @@ margin-top: 10px;
 margin-bottom:10px;
 }
 
-.yesNo { 
-    height:20px;
-    width:20px;
-}
 
-#pfpReq{
-    height:35px;
-    width:35px;
-}
+
 
 .prof p {    
     color:blue;
@@ -201,5 +194,5 @@ margin-bottom:10px;
 }
 
 #reqTopSide {
-    font-size: 11px;
+    font-size: 15px;
 }

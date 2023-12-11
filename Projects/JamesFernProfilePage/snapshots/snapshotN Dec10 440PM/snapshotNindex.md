@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="nav">
+            <ul class="nav-links">
+                <li>
+                    <h1 class="profile">Profile</h1>
+                </li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#" class="active">My Profile</a></li>
+                <li><a href="#">Find Connections</a></li>
+            </ul>
+            <button class="btn">Sign Out</button>
+        </div>
+        <div class="mainContent">
+            <div class="profileEducation">
+                <div class="userCard">
+                    <div class="top-strip">
+                        <img id = "pic" src="Images/user-circle.png" alt="profile pic">
+                    </div>
+                    <div class="bottom-strip">
+
+                        <ul>
+                            <li>
+                                <h2>Jane Doe</h2>
+                            </li>
+                            <li>
+                                <img class= "icon" src="Images/map-marker.png" alt="map"> Seattle
+                            </li>
+                            <li>Developer | Engineer | Problem Solver</li>
+                            <li>Master of shadows and the Internet!</li>
+                            <li class="edit">
+                                <img  class= "icon" src="Images/gear.png" alt="gear"> 
+                                <p id="prof"> edit profile</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="education">
+                    <h3>Education </h3>
+                    <p id="stack"> Coding Dojo Full Stack Bootcamp</p>
+                    <p id="date"> Dec 2019 - Mar 2020</p>
+                    <p id="cred"> Triple blackbelt in Python, MERN, C#</p>
+                </div>
+            </div>
+            <div class="yourConnections">
+                <div id="connectionRequests">
+                    <table id="requests">
+                        <th>
+                            <tr id="reqTop">
+                                <td>
+                                    <img id = "inc" src="Images\twofriends.png" alt="friend circle">
+                                </td>
+                                <td id="reqTopSide">Connection Requests</td>
+                            </tr>
+                        </th>
+                    </table>
+                </div>
+                <div id="yourConnections">
+                    <table id="your">
+                        <th>Your Connections</th>
+                        
+
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
