@@ -306,10 +306,3 @@ border-width:2px;
     padding-top:3px;
     padding-bottom:3px;
 }
-
-#viewmorerow {
-    border-style: solid;
-    border-color:black;
-    height:20px;
-    border-width:2px;
-}

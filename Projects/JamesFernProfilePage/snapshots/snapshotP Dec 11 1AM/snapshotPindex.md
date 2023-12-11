@@ -132,7 +132,7 @@
                                 </td>
                                 <td>Jane</td>
                             </tr>
-                            <tr id="viewmorerow">
+                            <tr class="viewmorerow">
                                 <td> </td>
                                 <td id="more"> view more</td>
                             </tr>
