@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="nav">
+            <div class="nav-links">
+                <h1>Profile</h1>
+                <li>Home</li>
+                <li>My Profile</li>
+                <li>Find Connections</li>
+            </div>
+            <button>Sign Out</button>
+        </div>
+        <div class="mainContent">
+            <div class="colA">
+                <div class="userCard">
+                    <div class="top-strip">
+                        <img src="Images/user-circle.png" alt="profile pic">
+                    </div>
+                    <div class="bottom-strip">
+                            <h3>Jane Doe</h3>
+                            <img  src="Images/map-marker.png" alt="map">Seattle
+                            <p>Developer | Engineer | Problem Solver</p>
+                            <p>Master of shadows and the Internet!</p>
+                            <img  src="Images/gear.png" alt="gear"> <span>edit profile</span>
+                    </div>
+                </div>
+                <div class="education">
+                    <h3>Education </h3>
+                    <p id="stack"> Coding Dojo - Full Stack Bootcamp</p>
+                    <p id="date"> Dec 2019 - Mar 2020</p>
+                    <p id="cred"> Triple blackbelt in Python, MERN, C#, saved the world, found the holy grail</p>
+                </div>
+            </div>
+            <div class="colB">
+                <div id="connectionRequests">
+                    <div class="connectionHeader">
+                        <p id="friendNumber">2</p>
+                        <p>Connection Requests</p>
+                    </div>
+<!--Connection requests row 1-->
+                    <div class="row">
+                        <div class="requestsPFP">
+                            <img  src="Images\todd-s.jpg" alt="Todd">
+                            <p>Todd</p>
+                        </div>
+                        <div class="acceptClose">
+                                    <img src="Images\accept-circle.png" alt="yes"> 
+                                    <img src="Images\close-circle.png" alt="yes"> 
+                        </div>
+                    </div>
+<!--Connection requests row 2-->
+                    <div class="row">
+                        <div class="requestsPFP">
+                            <img src="Images\Phil-s.jpg" alt="Phil">
+                            <p>Phil</p>
+                        </div>
+                        <div class="acceptClose">
+                                <img  class = "yesNo" src="Images\accept-circle.png" alt="yes"> 
+                                <img  class = "yesNo" src="Images\close-circle.png" alt="yes"> 
+                        </div>
+                    </div>
+                </div>
+                <div id="yourConnections">
+                    <div class="myFriendsHeader">
+                        <p id="friendNumber">500+</p>
+                        <p>Your Connections</p>
+                    </div>
+                    <div class="myFriends">
+                        <img  src="Images\Adrien-s.jpg" alt="Adrien"> Adrien
+                        <img  src="Images\Alayne-s.jpg" alt="Alayne"> Alayne
+                        <img  src="Images\Anne-s.jpg" alt="Anne"> Anne
+                        <img  src="Images\arry-s.jpg" alt="Arry"> Arry
+                        <img  src="Images\jane-m.jpg" alt="Jane"> Arry
+                        <p id="more"> view more</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
