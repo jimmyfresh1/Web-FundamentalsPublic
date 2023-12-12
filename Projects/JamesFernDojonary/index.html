@@ -13,7 +13,7 @@
         <div class="nav">
             <h2>Dojonary</h2>
             <input type="text" id="fname" name="fname">
-            <button  id="login"onClick="logIn(this)">Login</button>
+            <button onclick="logOutLogIn(this)">Login</button>
         </div>
         <div class="main">
             <div class ="colA">
@@ -25,7 +25,7 @@
                             <p class="plural">Plural:ninjas</p>
                         </div>
                         <div class="bottomhalf">
-                            <button><span>37</span> likes</button>
+                            <button onclick="smashThatLike(smashLike1)"><span id="smashLike1">37</span> likes</button>
                         </div>
                     </div>
                     <div class="ninjaDef">
@@ -40,7 +40,7 @@
                             <p class="plural">Plural:ninjas</p>
                         </div>
                         <div class="bottomhalf">
-                            <button><span>13</span> likes</button>
+                            <button onclick="smashThatLike(smashLike2)"><span id="smashLike2">13</span> likes</button>
                         </div>
                     </div>
                     <div class="ninjaDef">
@@ -51,7 +51,7 @@
             <div class="colB">
                 <div id="dojonaryBox">
                     <p>Dojonary is defined by YOU</p>
-                    <button>Add Definition</button>
+                    <button onclick="hide(this)">Add Definition</button>
                 </div>
             </div>
 
