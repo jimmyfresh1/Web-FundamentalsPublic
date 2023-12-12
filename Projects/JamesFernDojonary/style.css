@@ -31,10 +31,6 @@ margin-right: auto;
 
 }
 
-.nav h2 {
-
-
-}
 /* search bar*/
 .nav input {
 height:30px;
@@ -80,7 +76,7 @@ flex:1;
 display:flex;
 flex-direction:column;
 height:100px;
-background-color:rgb(255, 255, 255)02);
+background-color:rgb(255, 255, 255);
 
 }
 
