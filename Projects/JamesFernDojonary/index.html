@@ -5,13 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dojonary</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dosis">
+
 </head>
 <body>
     <div class="container">
         <div class="nav">
             <h2>Dojonary</h2>
             <input type="text" id="fname" name="fname">
-            <button id="login">Login</button>
+            <button  id="login"onClick="logIn(this)">Login</button>
         </div>
         <div class="main">
             <div class ="colA">
@@ -23,10 +25,12 @@
                             <p class="plural">Plural:ninjas</p>
                         </div>
                         <div class="bottomhalf">
-                            <button>13 likes</button>
+                            <button><span>37</span> likes</button>
                         </div>
                     </div>
-                    <div class="ninjaDef"></div>
+                    <div class="ninjaDef">
+                        <p>A practitioner skilled in the <span>Japanese</span> art of <span>ninjutsu</span></p>
+                    </div>
                 </div>
                 <div class="ninjaBox">
                     <div class="ninjaCol">
@@ -36,10 +40,12 @@
                             <p class="plural">Plural:ninjas</p>
                         </div>
                         <div class="bottomhalf">
-                            <button>13 likes</button>
+                            <button><span>13</span> likes</button>
                         </div>
-                    <div class="ninjaDef"></div>
-                </div>
+                    </div>
+                    <div class="ninjaDef">
+                        <p>A <span>programmer</span> who breaks down problems with <span>zen</span>-like focus</p>
+                    </div>
             </div>
         </div>
             <div class="colB">

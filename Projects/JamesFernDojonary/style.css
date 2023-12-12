@@ -1,8 +1,24 @@
+
+/*  wildcard clear*/
+* {
+    margin:0;
+    padding:0;
+}
+
+
+
+/* site container */
 .container {
 width:800px;
 
 }
 
+
+body {
+    font-family: "Sofia", sans-serif;
+}
+
+/* top navigation bar*/
 .nav {
 display:flex;
 width:70%;
@@ -19,7 +35,7 @@ margin-right: auto;
 
 
 }
-
+/* search bar*/
 .nav input {
 height:30px;
 margin-left:50px;
@@ -29,7 +45,7 @@ margin-right:50px;
 #login {
 height:30px;
 }
-
+/* main content*/
 .main {
 width:70%;
 margin-left: auto;
@@ -38,42 +54,55 @@ display:flex;
 justify-content:center;
 
 }
-
+/*colA contains definitions*/
 .colA{
 flex:2;
-background-color:aqua;
+background-color:rgb(255, 255, 255);
 height:20px;
-
 }
-
+/* style for both ninja boxes, flexed so that ninjaCol and ninjaDef are in a row*/
 .ninjaBox {
     width: 90%;
     height:125px;
-    background-color:red;
+    background-color:rgb(255, 255, 255);
     margin:10px;
+    display:flex;
+    font-size:12px;
+    border-style:solid;
+    border-color:black;
+    border-width: 1px;
 
 }
-
+/* Column with word, part of speech, pural form, and like button */
 .ninjaBox .ninjaCol{
+
+flex:1;
 display:flex;
 flex-direction:column;
 height:100px;
-background-color:rgb(90, 39, 39);
-width:80px;
+background-color:rgb(255, 255, 255)02);
+
+}
+
+/* ninjaCol is divved into the dictionary parts and the button*/
+.ninjaBox .ninjaCol .tophalf{
+height:90%;
+flex:3;
+display:flex;
+flex-direction:column;
+align-items:center;
+gap:8px;
+}
+.ninjaBox .ninjaCol .bottomhalf {
+margin-top:15px;
+flex:2;
 margin-left:15px;
 
 }
 
-.ninjaBox .ninjaCol .tophalf{
-flex:3;
-
-}
-.ninjaBox .ninjaCol .bottomhalf {
-flex:2;
-}
-
+/* stylings for the fonts of different parts of ninjaCol*/
 .ninjaCol .word {
-    font-size:16px;
+    font-size:24px;
 }
 
 .ninjaCol .pos {
@@ -81,30 +110,58 @@ flex:2;
 }
 
 .ninjaCol .plural {
-    font-size:8px;
+    font-size:9px;
 }
 
-
-
-
-
+.bottomhalf button {
+    background-color:gold;
+}
+/* ninjaDef takes up most of the box*/
 .ninjaDef{
-
+background-color:rgb(255, 255, 255);
+font-size:20px;
+flex: 3;
+margin-top: auto;
+margin-bottom:auto;
 
 }
 
+/* styling to make look like links */
+.ninjaDef span {
+    text-decoration:underline;
+    color:blue;
+}
+/* dojonary button */
 .colB {
 flex:1;
-background-color:chocolate;
+background-color:rgb(255, 255, 255);
 height:20px;
 }
 
 #dojonaryBox {
     width:90%;
-    height:150px;
-    background-color:rgb(255, 0, 157);
+    height:100px;
+    background-color:rgb(255, 255, 255);
     margin:10px;
+    border-style:solid;
+    border-color:black;
+    border-width:1px;
+    display:flex;
+    flex-direction:column;
     
+}
+
+#dojonaryBox button {
+    width:90%;
+    margin-top:10px;
+    margin-left:auto;
+    margin-right:auto;
+    background-color:rgb(109, 158, 36);
+    box-shadow:2px 2px 2px;
+}
+
+#dojonaryBox p {
+    margin-left: 5px;
 }
 
 

@@ -1,0 +1,128 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    
+/* Fixed width container class that will "auto-center" itself */
+    .container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+/* CSS Create Account Button*/
+#create {
+    color:aliceblue;
+    background-color:rgb(85, 123, 230);
+    box-shadow: 3px 3px black;
+    margin:  15px;
+    font-size:30pt 
+    width: 200px;
+    height:40px 
+}
+
+
+/* row and columns*/
+.row{
+    display:flex;
+    height: 100px;
+    color:white;
+    align-items:center; 
+    justify-content: space-between;
+
+}
+/* row holds these columns, flex-sized 1 2 and 3 respectively*/
+.col {
+    background-color: skyblue;
+    height: 75px;
+    flex: 1;
+    margin-right:20px;
+}
+.col-2{
+    background-color: skyblue;
+    height: 75px;
+    flex: 2
+
+}
+.col-3{
+    background-color: skyblue;
+    height: 75px;
+    flex: 3;
+    margin-left: 20px
+}
+
+/* STYLING for navBar starts here */
+
+
+* {
+    margin:0
+}
+
+.nav {
+    width:600px;
+    font-family: 'Roboto', sans-serif;
+    display:flex;
+    background-color:dimgrey;
+    height:40px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav-title{
+    margin-left: 10px;
+    color:white;
+    flex:1;
+    font-size:medium;
+}
+.nav-links {
+    font-size: 12px;
+    flex:1;
+    display:flex;
+    list-style-type:none;
+    align-items: center;
+    gap:7px;
+    justify-content: space-around;
+    margin-right:20px;
+
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+
+.nav-links > li {
+    flex:1;
+    text-wrap:nowrap;}
+    
+.btn {
+    height: 10 px;
+    background-color:rgb(14, 209, 209);
+    box-shadow: black 2px 2px;
+    color:white;
+    font-size:13px;
+    flex:2;
+    border: 2px black;
+    border-style:solid;
+}
+
+#reqTop {
+    display:flex;
+}
+
+#friends {
+    height: 20px;
+    width: 20px;
+    border: solid;
+    border-radius: 50%;
+    flex:1;
+}
+
+#reqTopSide{
+    flex:7;
+}
+/*STYLING for navBar ends here */
