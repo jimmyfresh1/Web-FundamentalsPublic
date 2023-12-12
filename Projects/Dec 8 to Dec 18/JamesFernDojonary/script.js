@@ -9,10 +9,12 @@ function logOutLogIn(element){
 
 function smashThatLike (element) {
     alert("Please smash that like button!");
+    /*
+    older version using parseInt
     console.log(element.innerText)
     var count=parseInt(element.innerText)
-    element.innerText = count + 1;
-    
+    element.innerText = count + 1;*/
+    element.innerText++
 }
 
 function hide(element) {
