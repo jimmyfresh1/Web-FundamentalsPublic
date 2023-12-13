@@ -1,0 +1,14 @@
+#fav-animal {
+    height:200px;
+    width:200px;
+}
+
+.btn-style {
+    height:30px;
+    width: 60px;
+    background-color: goldenrod;
+    color:white;
+    border: none;
+    border-radius:0px;
+    box-shadow: 4px 4px #222; 
+}
