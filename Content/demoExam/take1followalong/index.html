@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=scr, initial-scale=1.0">
+    <title>Reddit Imitation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="top_bar">
+        <div class="top_bar_left">
+            <img src="./icons/cat.png" alt="cat icon">
+            <p>CodeIt</p>
+            <div class="search_area">
+                <input type="text" placeholder="search" id="searchInput">
+                <button>Go</button>
+            </div>
+        </div>
+        <div class="top_bar_right">
+            <button class="btn btn-app">Get App</button>
+            <button class="btn btn-log">Log In</button>
+        </div>
+    </div>
+    <div class="mid_bar">
+        <div class="mid_top">
+            <img src="./icons/cat.png" alt="cat icon">
+            <h1>c/Dojo</h1>
+            <button class="btn btn-join" onclick="this.remove()">Join</button>
+        </div>
+        <ul class="mid_nav">
+            <li class="posts">Posts</li>
+            <li>Wiki</li>
+            <li>c/Dojo</li>
+            <li>Discord</li>
+        </ul>
+    </div>
+    <div class="main">
+        <div class="colA">
+            <div class="thread">
+                <div class="thread_likes">
+                    <img src="./icons/up-arrow.png" alt="upvote">
+                    <p>29</p>
+                    <img src="./icons/down-arrow.png" alt="downvote">
+                </div>
+                <div class="thread_content">
+                    <h2>Best Project Week 2022!</h2>
+                    <img src="https://placekitten.com/300/200" alt="">
+                    <div class="post_actions">
+                        <img src="./icons/chat.png" alt="chat">
+                        <p>42 comments</p>
+                        <img src="./icons/share.png" alt="share">
+                        <p>Share</p>
+                    </div>
+                </div>
+            </div>
+            <div class="thread">
+                <div class="thread_likes">
+                    <img src="./icons/up-arrow.png" alt="upvote">
+                    <p>17</p>
+                    <img src="./icons/down-arrow.png" alt="downvote">
+                </div>
+                <div class="thread_content">
+                    <h2>Is it weird to use my cat as a rubber duck?</h2>
+                    <img src="https://placekitten.com/300/200" alt="">
+                    <div class="post_actions">
+                        <img src="./icons/chat.png" alt="chat">
+                        <p>16 comments</p>
+                        <img src="./icons/share.png" alt="share">
+                        <p>Share</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="colB">
+            <h3 class="card_head">About the Dojo</h3>
+            <div class="card">
+                <p>Changing lives with Code and a dedicated community of debuggers</p>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
