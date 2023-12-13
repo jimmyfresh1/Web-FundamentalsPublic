@@ -8,3 +8,5 @@ var user1 = {
 }
 
 user1.sayHi()
+user1.lastName = "Bobberts"
+console.log(user1)
