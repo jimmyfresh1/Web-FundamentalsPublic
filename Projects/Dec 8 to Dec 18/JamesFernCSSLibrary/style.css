@@ -55,10 +55,12 @@
 
 /* STYLING for navBar starts here */
 
-
+/*
 * {
     margin:0
 }
+*/
+
 
 .nav {
     width:600px;
@@ -126,3 +128,36 @@ a {
     flex:7;
 }
 /*STYLING for navBar ends here */
+
+/* STYLING FOR CONTAINER WITH TWO COLUMNS*/
+
+.container {
+    margin:0;
+    padding:0;
+    background-color:rgba(255, 255, 255, 0.5);
+    width: 100vw;
+    height: 100vh;
+}
+
+.mainContent{
+    display:flex;
+    margin: 20px; 
+    justify-content:center;
+    background-color:rgb(255, 255, 255);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* mainContent is flexed into two columns*/
+.colA{
+    width: 30%;
+    background-color:rgb(255, 255, 255);
+    text-align:center;
+}
+
+.colB{
+    width:15%;
+    background-color: rgb(255, 255, 255);
+    text-align:center;
+    padding-top:12px;
+
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Social Network</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="site-container">
+        <div class="navbar">
+            <h2>Network</h2>
+        </div>
+        <div class="feed-header">
+            <h2>Your Feed</h2>
+        </div>
+        <div class="main">
+            <div class="pfp-col">
+                <div class="pfp-box">
+                    <div class="pfp-box-avatar">
+                        <img src="images\user-circle.png" alt="user pic">
+                        <p>Add an avatar</p>
+                    </div>
+                    <div class="pfp-box-name">
+                        <p>James Doe</p>
+                    </div>
+                </div>
+            </div>
+            <div class="feed-col">
+                <div class="neil-box">
+                    <div class="top-strip">
+                        <div class="top-strip-left">
+                            <p>Neil M</p>
+                        </div>
+                        <div class="top-strip-right">
+                            <p><span id="like-neil">3</span> like/(s)/</p>
+                            <button onclick="smashThatLikeNeil()">Like</button>
+                        </div> 
+                    </div>
+                    <div class="bottom-strip">
+                        <p id="neil-status">I just set up a new discord bot, let me know what you all think. <span>link</span></p>
+                    </div>
+                </div>
+                <div class="nicole-box">
+                    <div class="top-strip">
+                        <div class="top-strip-left">
+                            <p>Nichole K</p>
+                        </div>
+                        <div class="top-strip-right">
+                            <p><span id="like-nichole">3</span> like/(s)/</p>
+                            <button onclick="smashThatLikeNichole()">Like</button>
+                        </div> 
+                    </div>
+                    <div class="bottom-strip">
+                        <p id="nichole-status">Just finished my <span>next comic.</span> check it out.</p>
+                    </div>
+                </div>
+                <div class="jim-box">
+                    <div class="top-strip">
+                        <div class="top-strip-left">
+                            <p>Jim R</p>
+                        </div>
+                        <div class="top-strip-right">
+                            <p><span id="like-jim">3</span> like/(s)/</p>
+                            <button onclick="smashThatLikeJim()">Like</button>
+                        </div>
+                    </div>
+                    <div class="bottom-strip">
+                        <p id = "jim-status">I can't stop listening to the <span>new album.</span> Who else is liking it?</p>
+                    </div>
+                </div> 
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

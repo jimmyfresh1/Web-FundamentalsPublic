@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad&display=swap');
+
+.site-container {
+width:50vw;
+height:700px;
+display:flex;
+flex-direction:column;
+margin:auto;
+font-family: 'Afacad', sans-serif;
+}
+
+.navbar {
+flex:1;
+background-color:rgb(26, 26, 26);
+padding-left: 20px;
+font-size:20px;
+color:white;
+}
+
+.feed-header {
+flex:1;
+margin:auto;
+
+}
+
+.main {
+margin-top:10px;
+flex:11;
+display:flex;
+flex-direction:row;
+gap:10px;
+
+}
+
+.pfp-col {
+    flex:2;
+    background-color:rgb(255, 255, 255);
+    height:100%
+}
+
+.pfp-box {
+
+background-color: rgb(255, 255, 255);
+display: flex;
+flex-direction: column;
+border-style:solid;
+border-color:black;
+border-width:3px;
+
+}
+
+.pfp-box-avatar {
+
+    background-color: rgb(255, 255, 255);
+    display:flex;
+    flex-direction:column;
+    margin:auto;
+    align-items:center;
+    padding-top:30px;
+}
+
+.pfp-box-avatar img {
+    height: 70px;
+    width:  70px;
+}
+
+.pfp-box-avatar p  {
+    font-size:20px;
+    color:blue;
+    text-decoration: underline;
+}
+
+.pfp-box-name {
+    margin:auto;
+}
+
+.pfp-box-name p {
+    font-size:25px;
+
+
+}
+.feed-col {
+    flex:5;
+    background-color: rgb(255, 255, 255);
+    height:90%;
+    gap:40px;
+    display:flex;
+    flex-direction:column;
+}
+
+.neil-box, .nicole-box, .jim-box{
+    height:30%;
+    width:80%;
+    background-color:rgb(255, 255, 255);
+    border-style:solid;
+    border-color:black;
+    border-width:2px;
+    display:flex;
+    flex-direction:column;
+
+}
+
+.top-strip {
+    flex:3;
+    background-color:rgb(255, 255, 255);
+    width:100%;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+}
+
+.top-strip-left{
+flex:1;
+padding-left:10px;
+
+}
+
+.top-strip-right{
+flex:1;
+display:flex;
+flex-direction:row;
+gap:20%;
+align-items:center;
+}
+
+.top-strip-right button{
+    width:50px;
+    height:30px;
+    background-color:gold;
+    box-shadow: 3px 3px 3px;
+
+}
+.bottom-strip{
+    flex:2;
+    background-color:rgb(255, 255, 255);
+    width:100%;
+    
+}
+
+.bottom-strip p {
+    padding-left:10%;
+}
+
+.bottom-strip #neil-status span, .bottom-strip #nichole-status span, .bottom-strip #jim-status span {
+    color:blue;
+    text-decoration: underline;
+}
