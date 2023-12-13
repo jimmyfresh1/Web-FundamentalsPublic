@@ -9,5 +9,5 @@ function smashThatLikeNichole(){
 }
 
 function smashThatLikeJim(){
-    likeArray[2].innerText++;
+    likeArray[2].innerText--;
 }
