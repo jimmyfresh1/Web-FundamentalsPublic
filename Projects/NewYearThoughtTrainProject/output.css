@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+  background-color: gray;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.card-container {
+  margin-left: 10vw;
+  height: 100vh;
+  width: 70vw;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 150px;
+  /* Adjust the gap between cards */
+  /* Add any other styling you need for the container */
+}
+
+.card {
+  margin: 10px;
+  height: 300px;
+}
+.card .card-header {
+  position: absolute;
+  height: calc(3rem + 2px);
+  background-image: linear-gradient(180deg, aliceblue 3rem, #F0A4A4 3rem, #F0A4A4 calc(3rem + 2px), transparent 1px);
+  width: 400px;
+}
+.card .card-main {
+  position: absolute;
+  margin-top: calc(3rem + 2px);
+  background-image: repeating-linear-gradient(0deg, aliceblue, aliceblue 1.5rem, #61676d 1px, #DDD calc(1.5rem + 1px));
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.25);
+  height: 14rem;
+  width: 400px;
+}
+.card .card-main p {
+  position: absolute;
+  background-color: aliceblue;
+  margin: 0;
+  width: 100%;
+}
+.card .card-main p:nth-child(1) {
+  top: 0rem;
+}
+.card .card-main p:nth-child(2) {
+  top: 1.5rem;
+}
+.card .card-main p:nth-child(3) {
+  top: 3rem;
+}
+.card .card-main p:nth-child(4) {
+  top: 4.5rem;
+}
+.card .card-main p:nth-child(5) {
+  top: 6rem;
+}
+.card .card-main p:nth-child(6) {
+  top: 7.5rem;
+}
+
+/*# sourceMappingURL=output.css.map */
